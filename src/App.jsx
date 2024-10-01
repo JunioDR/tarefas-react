@@ -23,7 +23,7 @@ function App() {
       const data = await response.json();
       setTasks(data);
     };
-    fetchTasks();
+    //fetchTasks();
   }, []);
 
   function onTaskClick(taskId) {
